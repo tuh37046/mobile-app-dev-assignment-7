@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import edu.temple.lab7.dummy.BookList;
+import edu.temple.lab7.BookList;
 
 /**
  * An activity representing a list of Items. This activity

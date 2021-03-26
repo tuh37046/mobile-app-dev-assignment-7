@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import edu.temple.lab7.dummy.BookList;
+import edu.temple.lab7.BookList;
 
 /**
  * A fragment representing a single Item detail screen.

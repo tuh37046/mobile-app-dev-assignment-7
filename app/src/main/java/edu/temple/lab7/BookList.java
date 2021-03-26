@@ -1,4 +1,4 @@
-package edu.temple.lab7.dummy;
+package edu.temple.lab7;
 
 
 import java.util.ArrayList;
@@ -61,7 +61,7 @@ public class BookList {
         names.add("Wilde");
         names.add("Noam");
         Random rand = new Random();
-        return names.get(rand.nextInt(names.size()))+" "+names.get(rand.nextInt(names.size()));
+        return "By "+names.get(rand.nextInt(names.size()))+" "+names.get(rand.nextInt(names.size()));
     }
 
     private static Book createBook(int position) {
