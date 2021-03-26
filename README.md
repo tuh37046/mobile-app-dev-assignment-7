@@ -1,4 +1,4 @@
-# Lab 6: Language and Localization
+# Lab 7: Fragments
 This is a library app that allows users to select from a shelf of randomly generated books. The user is prompted to select a book, and upon doing so is shown a detail screen that shows the book's full title and author.  The user can select and view books in landscape mode without launching a detail screen.
 
 ## Screenshots
