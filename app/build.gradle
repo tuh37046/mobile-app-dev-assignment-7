@@ -6,6 +6,11 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
+    lintOptions {
+        disable 'InvalidPackage'
+        checkReleaseBuilds false //<- add this line
+    }
+
     defaultConfig {
         applicationId "edu.temple.lab7"
         minSdkVersion 30
